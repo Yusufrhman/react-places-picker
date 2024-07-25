@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 export default function ProgressBar() {
   const [remainingTime, setRemainingTime] = useState(3000);
   useEffect(() => {
